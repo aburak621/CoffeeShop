@@ -1,0 +1,113 @@
+.transparent {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar.sticky {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.coffee-img {
+    max-width: 75px;
+    max-height: 75px;
+}
+
+.form-floating {
+    min-width: 300px;
+}
+
+h1 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 5rem;
+    -webkit-text-stroke: 2px black;
+    z-index: 10;
+}
+
+.big {
+    font-size: 1.2rem;
+}
+
+.bg {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parallax {
+    background-image: url("img/background.png");
+    padding-top: 230px;
+
+    /* Set a specific height */
+    min-height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.button1:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.button2 {
+    border-radius: 2em;
+    background-color: #FFFFFF;
+    color: black;
+    max-width: 200px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.button2:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.submit{
+    color: black;
+    background-color: lightgrey;
+}
+
+@media all and (max-width: 30em) {
+    a.button1 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+html, body { height: 100%;}
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+}
